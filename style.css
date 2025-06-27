@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    padding: 34px;
+    margin: auto;
+    text-align: center;
+
+}
+#ha{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+input,textarea{
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 250px;
+    margin: 11px 0px;
+    padding: 7px;
+}
+.btn{
+    background-color: brown;
+    border-radius: 25%;
+    height: 35px;
+    width: 45px;
+    cursor: pointer;
+}
+.rest{
+    background-color: blueviolet;
+    border-radius: 25%;
+    height: 35px;
+    width: 45px;
+    cursor: pointer;
+}
+ form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
